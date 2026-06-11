@@ -38,7 +38,7 @@ Once the script starts, it will ask you 4 simple questions. You do not need to t
 
 ### Prompt 1: Enter the current week number (e.g., 35):
 Type the week number. The script uses this to label the new data (e.g., LW35).
-## Prompt 2: Enter the name of the NEW data file:
+### Prompt 2: Enter the name of the NEW data file:
 Type the name of the file containing this week's raw data (e.g., file1).
 ### Prompt 3: Enter the name of the MASTER data file:
 Type the name of your historical database file (e.g., file2).
