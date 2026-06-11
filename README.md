@@ -1,4 +1,3 @@
-# merge_n_viz
 # Last Wafer Defect Monitoring - Automation Tool
 
 This tool automates the weekly data entry, formatting, and charting process for the Last Wafer Defect Monitoring database. It takes the new weekly data, seamlessly merges it into the master tracking file, highlights the new additions for easy comparison, and automatically updates the tracking chart to display the latest 80 lots.
