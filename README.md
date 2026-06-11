@@ -2,15 +2,19 @@
 
 This tool automates the weekly data entry, formatting, and charting process for the Last Wafer Defect Monitoring database. It takes the new weekly data, seamlessly merges it into the master tracking file, highlights the new additions for easy comparison, and automatically updates the tracking chart to display the latest 80 lots.
 
-## 🚀 Prerequisites
+## 🚀 Prerequisites & Setup (First Time Only)
 
-Before using this tool for the first time, you will need to have Python installed on your computer, along with two specific data libraries.
+Before using this tool for the first time, you need to set up your Python environment. Don't worry, it's just a few simple commands!
 
-1. **Install Python:** Download and install Python from [python.org](https://www.python.org/downloads/). 
-2. **Install Required Libraries:** Open your computer's Terminal (Mac) or Command Prompt (Windows) and run the following command:
+1. **Install Python:** Ensure you have Python installed on your computer. You can download it from [python.org](https://www.python.org/downloads/).
+2. **Download this folder:** Clone this repository or download it as a ZIP file and extract it to a folder on your computer.
+3. **Open your Terminal:** * *Mac:* Open the `Terminal` app.
+   * *Windows:* Open `Command Prompt` or `PowerShell`.
+4. **Navigate to the folder:** Use the `cd` command to enter the folder where you saved these files. (e.g., `cd Documents/LastWaferTool`)
+5. **Install Required Libraries:** Run the following command to automatically install all the exact tools this script needs to run:
    ```bash
-   pip install pandas openpyxl
-   ```
+   pip install -r requirements.txt
+   
 (Note: If you are on a Mac, you may need to type pip3 instead of pip).
 
 
