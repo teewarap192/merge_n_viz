@@ -22,7 +22,7 @@ def ensure_extension(filename):
     return filename
 
 def update_master_file():
-    print("--- Last Wafer Monitoring Update Tool ---")
+    print("--- Dust on Wafer Monitoring Update Tool ---")
     
     # --- Dynamic Inputs ---
     week_num = input("1. Enter the current week number (e.g., 35): ").strip()
@@ -49,7 +49,7 @@ def update_master_file():
     ws = wb.active
 
     # --- PHASE 1: Merge Previous Week's Data & Clean Up ---
-    print("Housekeeping: Merging old week data and cleaning columns...")
+    print("Merging old week data and cleaning columns...")
 
     base_cols = {}
     max_col_initial = ws.max_column
